@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.narcisdpr.kotlintoswift
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
