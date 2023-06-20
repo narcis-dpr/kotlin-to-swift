@@ -1,0 +1,25 @@
+package com.github.narcisdpr.kotlintoswift.convertLibrary
+
+object DefaultExpressions {
+    const val NORMAL_WORD = "[A-Za-z0-9]"
+    const val NORMAL_WORD_ = "[A-Za-z0-9_]"
+    const val NOT_NORMAL_WORD_ = "[^A-Za-z0-9_]"
+    const val NORMAL_WORD_DOT_GENS_ = "[A-Za-z0-9_<>.]"
+    const val LITERAL_WORD_ = "[A-Za-z_]"
+    const val DIGITS = "[0-9]"
+    const val STAR = "*"
+    const val POSITIVE = "+"
+    const val ZERO_OR_ONE = "?"
+    const val SPACE = "\\s"
+    const val PARENTHESES = "()"
+    const val OR = "|"
+    const val GENERICS = "<>"
+    const val DOT = "."
+    const val ONCE_OR_NOT = "?"
+    const val CARET = "^"
+    const val COMPANION = "companion "
+    const val OBJECT = "object "
+    const val COMPANION_OBJECT = "companion object "
+    const val OF = "Of"
+    const val NIL = "nil"
+}
