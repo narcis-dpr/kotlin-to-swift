@@ -11,6 +11,18 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.narcisdpr.kotlintoswift.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
     </extensions>
+    <actions>
+        <group
+                id="MyDemoActionGroup"
+                description="Demo action group">
+            <action
+                    id="com.example.demoplugin.MyDemoAction"
+                    class="com.github.narcisdpr.kotlintoswift.action.ConvertAction"
+                    text="Convert Kotlin File to Swift File"
+                    description="Demo action example"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </group>
+    </actions>
 
     <applicationListeners>
         <listener class="com.github.narcisdpr.kotlintoswift.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
